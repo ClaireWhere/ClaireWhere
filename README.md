@@ -3,6 +3,7 @@
 <hr>
 <p>Hello friends! I’m a beginner software developer currently learning everything I can :D I’m always working on a few projects at a time and always trying to learn something new and improve my skills. I take a very positive approach to software development and believe every creation has value. Get out there and make something! 💖</p>
 <hr>
+<p><img src="metrics.basic.svg" alt="Basic profile metrics"/> <img src="metrics.followup.svg" alt="Followup profile metrics"/> <img src="metrics.languages.svg" alt="Languages profile metrics"/></p>
 <p><a href="https://github.com/ClaireWhere/ClaireWhere#gh-dark-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=ClaireWhere&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Open%20Source%20Stats&amp;title_color=3B7EBF&amp;text_color=FFF&amp;icon_color=3B7EBF&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-dark-mode-only" alt="GitHub-Stats-Card-Dark"></a><br>
 <a href="https://github.com/ClaireWhere/ClaireWhere#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=ClaireWhere&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Open%20Source%20Stats&amp;title_color=3B7EBF&amp;text_color=474A4E&amp;icon_color=3B7EBF&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-light-mode-only" alt="GitHub-Stats-Card-Light"></a></p>
 </div>
