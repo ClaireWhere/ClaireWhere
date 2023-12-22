@@ -14,20 +14,37 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate metrics
+      - name: Generate Basic Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.github.svg
+          filename: metrics.basic.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: main
-          committer_message: "chore: update metrics.github.svg"
-          base: activity, repositories
-          plugin_lines: yes
+          committer_message: "chore: update metrics.basic.svg"
+          base: activity
+      - name: Generate Language Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.language.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update metrics.language.svg"
+          base: 
           plugin_languages: yes
           plugin_languages_other: yes
           plugin_languages_indepth: true
           plugin_languages_skipped: ${{ vars.SKIP_REPO }}
           plugin_languages_details: percentage, lines
+      - name: Generate Followup Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update metrics.followup.svg"
+          base: 
           plugin_followup: yes
           plugin_followup_sections: repositories
