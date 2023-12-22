@@ -67,8 +67,7 @@ async function generateMarkdown() {
         + `---\n\n`
         + `Hello friends! I'm a beginner software developer currently learning everything I can :D I'm always working on a few projects at a time and always trying to learn something new and improve my skills. I take a very positive approach to software development and believe every creation has value. Get out there and make something! 💖\n\n`
         + `---\n\n`
-        + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n\n`
-        + `${githubStatsCardDark}\n${githubStatsCardLight}\n`
+        + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n`
         + `</div>\n\n`
         + `---\n\n## Highlights\n\n`
         + developmentProjectDisplay
