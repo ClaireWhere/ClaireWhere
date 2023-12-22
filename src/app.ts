@@ -33,7 +33,10 @@ async function generateMarkdown() {
     const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${config.githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=3B7EBF&text_color=FFF&icon_color=3B7EBF&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${config.githubUsername}/${config.githubUsername}#gh-dark-mode-only)`;
     const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${config.githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=3B7EBF&text_color=474A4E&icon_color=3B7EBF&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${config.githubUsername}/${config.githubUsername}#gh-light-mode-only)`;
 
-    
+    const metricsBasic = `<img src="metrics.basic.svg" alt="Basic profile metrics"/>`;
+    const metricsFollowup = `<img src="metrics.followup.svg" alt="Followup profile metrics"/>`;
+    const metricsLanguages = `<img src="metrics.languages.svg" alt="Languages profile metrics"/>`;
+
     const developmentProjectDisplay = config.developmentProjectRepos.length === 0 ? `` : ``
         + `<details>\n`
         + `<summary>Projects in Development</summary>\n`
@@ -64,6 +67,7 @@ async function generateMarkdown() {
         + `---\n\n`
         + `Hello friends! I'm a beginner software developer currently learning everything I can :D I'm always working on a few projects at a time and always trying to learn something new and improve my skills. I take a very positive approach to software development and believe every creation has value. Get out there and make something! 💖\n\n`
         + `---\n\n`
+        + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n\n`
         + `${githubStatsCardDark}\n${githubStatsCardLight}\n`
         + `</div>\n\n`
         + `---\n\n## Highlights\n\n`
