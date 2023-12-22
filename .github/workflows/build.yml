@@ -1,0 +1,32 @@
+name: ClaireWhere Profile README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Install Dependencies
+        run: npm install
+      - name: Generate README.md File
+        run: npm run start
+      - name: Setup git config
+        run: |-
+          git config --global user.email "clairewhere4@gmail.com"
+          git config --global user.name "ClaireWhere"
+      - name: Commit and Push if Changed
+        run: |-
+          git add README.md
+          git diff
+          git commit -m "docs: auto-update README.md" -a || echo "No changes to commit" && exit 0
+          git push
