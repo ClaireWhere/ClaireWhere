@@ -17,7 +17,7 @@ export async function fetchGitHubData(repos: Array<string>): Promise<string> {
           description: desc
         } = data;
   
-        return `<li><a href=${url} target="_blank" rel="noopener noreferrer">${name}</a> (<b>${stars}</b> ✨ and <b>${forks}</b> 🍴): ${desc}</li>`;
+        return `<li><a href=${url} target="_blank" rel="noopener noreferrer">${name}</a> (<b>${stars}</b> ⭐ | <b>${forks}</b> ⚙️): ${desc}</li>`;
       })
     );
   
