@@ -26,11 +26,11 @@ jobs:
       - name: Generate Language Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.language.svg
+          filename: metrics.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: main
-          committer_message: "chore: update metrics.language.svg"
+          committer_message: "chore: update metrics.languages.svg"
           base: 
           plugin_languages: yes
           plugin_languages_other: yes
