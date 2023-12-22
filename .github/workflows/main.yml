@@ -17,6 +17,7 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
+          filename: metrics.github.svg
           token: ${{ secrets.METRICS_TOKEN }}
       - name: Generate language metrics
         uses: lowlighter/metrics@latest
