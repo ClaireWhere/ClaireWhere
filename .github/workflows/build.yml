@@ -30,3 +30,4 @@ jobs:
           git diff
           git commit -m "docs: auto-update README.md" -a || echo "No changes to commit" && exit 0
           git push
+          echo "Changes pushed to profile README"
