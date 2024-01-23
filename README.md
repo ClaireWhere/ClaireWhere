@@ -11,7 +11,14 @@
 <summary>Projects in Development</summary>
 <br />Here are some of the projects I'm currently working on:
 <br />
-<br /><ul><li><a href=https://github.com/ClaireWhere/gsabot target="_blank" rel="noopener noreferrer">ClaireWhere/gsabot</a> (<b>1</b> ⭐ | <b>0</b> ⚙️): Discord bot for the Gender and Sexuality Alliance.</li>
+<br /><ul><li><a href=https://github.com/ClaireWhere/gsabot target="_blank" rel="noopener noreferrer">ClaireWhere/gsabot</a> (📄 Language: <b>JavaScript</b> | 🗃️ Issues: <b>12</b> | 📅 Last updated: <b>2024-01-07T20:19:28Z</b>): Discord bot for the Gender and Sexuality Alliance.</li><ul><li>🏷️ Current Release: <a href=https://github.com/ClaireWhere/gsabot/releases/tag/0.1.4 target="_blank" rel="noopener noreferrer">v0.1.4</a> (Published: <b>2023-10-18T00:17:55Z</b>)</li></ul><li><a href=https://github.com/ClaireWhere/GameJam14 target="_blank" rel="noopener noreferrer">ClaireWhere/GameJam14</a> (📄 Language: <b>C#</b> | 🗃️ Issues: <b>24</b> | 📅 Last updated: <b>2024-01-23T04:27:59Z</b>): Pirate Software - Game Jam 14</li>
+</ul>
+</details>
+<details>
+<summary>Released Projects</summary>
+<br />Here are some of the completed projects I've released:
+<br />
+<br /><ul><li><a href=https://github.com/ClaireWhere/BungaBotDiscord target="_blank" rel="noopener noreferrer">ClaireWhere/BungaBotDiscord</a> (📄 Language: <b>JavaScript</b> | 🗃️ Issues: <b>0</b> | 📅 Last updated: <b>2024-01-06T15:25:48Z</b>): null</li><ul><li>🏷️ Current Release (pre-release): <a href=https://github.com/ClaireWhere/BungaBotDiscord/releases/tag/0.1.0 target="_blank" rel="noopener noreferrer">v0.1.0</a> (Published: <b>2024-01-03T03:40:04Z</b>)</li></ul><li><a href=https://github.com/ClaireWhere/BungaBotTwitch target="_blank" rel="noopener noreferrer">ClaireWhere/BungaBotTwitch</a> (📄 Language: <b>JavaScript</b> | 🗃️ Issues: <b>0</b> | 📅 Last updated: <b>2024-01-05T18:43:47Z</b>): Simple Twitch chat bot for AAAAurora_'s stream</li><ul><li>🏷️ Current Release: <a href=https://github.com/ClaireWhere/BungaBotTwitch/releases/tag/v0.1.1 target="_blank" rel="noopener noreferrer">0.1.1</a> (Published: <b>2023-08-02T02:14:29Z</b>)</li></ul><li><a href=https://github.com/ClaireWhere/NewTab target="_blank" rel="noopener noreferrer">ClaireWhere/NewTab</a> (📄 Language: <b>JavaScript</b> | 🗃️ Issues: <b>0</b> | 📅 Last updated: <b>2023-12-28T16:53:11Z</b>): null</li>
 </ul>
 </details>
 <details>
