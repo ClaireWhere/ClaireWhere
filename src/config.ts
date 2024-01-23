@@ -8,10 +8,13 @@ export const config = {
     "badgeColor": "D1A3FF",
     "textColor": "black",
     "developmentProjectRepos": [
-        "gsabot"
+        "ClaireWhere/gsabot",
+        "ClaireWhere/GameJam14"
     ],
     "releasedProjectRepos": [
-
+        "ClaireWhere/BungaBotDiscord",
+        "ClaireWhere/BungaBotTwitch",
+        "ClaireWhere/NewTab"
     ],
     "learningMaterialRepos": [
 
