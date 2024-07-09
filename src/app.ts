@@ -40,14 +40,14 @@ async function generateMarkdown() {
     const developmentProjectDisplay = config.developmentProjectRepos.length === 0 ? `` : ``
         + `<details>\n`
         + `<summary>Projects in Development</summary>\n`
-        + `<br />Here are some of the projects I'm currently working on:\n`
+        + `<br />These are some projects I'm currently working on. Some of them may never be completed, but I like to keep them because they're good memories.\n`
         + `<br />\n<br />`
         + `${await fetchGitHubData(config.developmentProjectRepos)}\n`
         + `</details>\n`;
     const releasedProjectDisplay = config.releasedProjectRepos.length === 0 ? `` : ``
         + `<details>\n`
         + `<summary>Released Projects</summary>\n`
-        + `<br />Here are some of the completed projects I've released:\n`
+        + `<br />These are some projects I've "completed" (whatever that means). Basically, these ones have the potential to work!\n`
         + `<br />\n<br />`
         + `${await fetchGitHubData(config.releasedProjectRepos)}\n`
         + `</details>\n`;
@@ -55,7 +55,7 @@ async function generateMarkdown() {
         + `<details>\n`
         + `<summary>Learning Materials</summary>\n`
         + `<br />`
-        + `Here are some of the learning resources I've created:\n`
+        + `Here are some of the learning and other resources I've created:\n`
         + `<br />\n<br />`
         + `${await fetchGitHubData(config.learningMaterialRepos)}\n`
         + `</details>\n`;
@@ -65,7 +65,7 @@ async function generateMarkdown() {
         + `<div align="center">\n`
         + `${websiteBadge} ${youtubeBadge} ${twitchBadge} ${discordBadge} ${profileCountBadge}\n\n`
         + `---\n\n`
-        + `Hello friends! I'm a beginner software developer currently learning everything I can :D I'm always working on a few projects at a time and always trying to learn something new and improve my skills. I take a very positive approach to software development and believe every creation has value. Get out there and make something! 💖\n\n`
+        + `Hello friends! I love to work on fun little projects to learn more about software development and improve my skills. I love learning and exercising my creativity and take a very positive approach to life. I believe everything has value! Fun fact: I *enjoy* making diagrams and writing documentation - call me crazy if you want. Oh also I love bread 🍞💖\n\n`
         + `---\n\n`
         + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n`
         + `</div>\n\n`
@@ -76,8 +76,8 @@ async function generateMarkdown() {
         + `<details>\n`
         + `<summary>Extra Info</summary>\n\n`
         + `- ⭐️ Pronouns: She/Her\n`
-        + `- 💬 How to reach me: DM me [@${config.discordUsername}](${config.discordURL}) on Discord\n`
-        + `- 🌱 I'm currently (always) learning: C#, Java, JavaScript, Python, TypeScript, and more!\n`
+        + `- 💬 DM me [@${config.discordUsername}](${config.discordURL}) on Discord if you wanna talk to me\n`
+        + `- 🌱 The first programming language I used extensively was TI-BASIC which I learned to make goofy little games and programs on my calculators. By now I've moved on to more modern languages :p\n`
         + `</details>\n\n`
         + `---\n\n`
         + `<a href="https://github.com/${config.githubUsername}/${config.githubUsername}/actions/workflows/build.yml"><img src="https://github.com/${config.githubUsername}/${config.githubUsername}/actions/workflows/build.yml/badge.svg" align="right" alt="Rebuild README.md file"></a>\n`
