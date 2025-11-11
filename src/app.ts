@@ -65,7 +65,7 @@ async function generateMarkdown() {
     let markdownText = ``
         + `<div align="center">\n`
         + `---\n\n`
-        + `I like fun little projects sometimes. Some call me crazy, I call it focused chaos. Oh also I love bread 🍞💖\n\n`
+        + `I like fun little projects sometimes. Some call me crazy, I call me Claire. Oh also I love bread 🍞💖\n\n`
         + `---\n\n`
         + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n`
         + `</div>\n\n`
