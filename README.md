@@ -1,6 +1,6 @@
 <div align="center">
 ---
-<p>I like fun little projects sometimes. Some call me crazy, I call it focused chaos. Oh also I love bread 🍞💖</p>
+<p>I like fun little projects sometimes. Some call me crazy, I call me Claire. Oh also I love bread 🍞💖</p>
 <hr>
 <p><img src="metrics.basic.svg" alt="Basic profile metrics"/> <img src="metrics.followup.svg" alt="Followup profile metrics"/> <img src="metrics.languages.svg" alt="Languages profile metrics"/></p>
 </div>
