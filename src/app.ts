@@ -64,7 +64,6 @@ async function generateMarkdown() {
     //  + `${websiteBadge} ${youtubeBadge} ${twitchBadge} ${discordBadge} ${profileCountBadge}\n\n`
     let markdownText = ``
         + `<div align="center">\n`
-        + `---\n\n`
         + `I like fun little projects sometimes. Some call me crazy, I call me Claire. Oh also I love bread 🍞💖\n\n`
         + `---\n\n`
         + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n`
