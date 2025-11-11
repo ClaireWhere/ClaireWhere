@@ -40,14 +40,14 @@ async function generateMarkdown() {
     const developmentProjectDisplay = config.developmentProjectRepos.length === 0 ? `` : ``
         + `<details>\n`
         + `<summary>Projects in Development</summary>\n`
-        + `<br />These are some projects I'm currently working on. Some of them may never be completed, but I like to keep them because they're good memories.\n`
+        + `<br />These are some projects I'm currently working on. Most of them will likely never be completed, but I like to keep them because they're good memories.\n`
         + `<br />\n<br />`
         + `${await fetchGitHubData(config.developmentProjectRepos)}\n`
         + `</details>\n`;
     const releasedProjectDisplay = config.releasedProjectRepos.length === 0 ? `` : ``
         + `<details>\n`
         + `<summary>Released Projects</summary>\n`
-        + `<br />These are some projects I've "completed" (whatever that means). Basically, these ones have the potential to work!\n`
+        + `<br />These are some projects I've "completed" (whatever that's supposed to mean). Basically, these ones have the potential to work!\n`
         + `<br />\n<br />`
         + `${await fetchGitHubData(config.releasedProjectRepos)}\n`
         + `</details>\n`;
@@ -61,11 +61,11 @@ async function generateMarkdown() {
         + `</details>\n`;
     
 
+    //  + `${websiteBadge} ${youtubeBadge} ${twitchBadge} ${discordBadge} ${profileCountBadge}\n\n`
     let markdownText = ``
         + `<div align="center">\n`
-        + `${websiteBadge} ${youtubeBadge} ${twitchBadge} ${discordBadge} ${profileCountBadge}\n\n`
         + `---\n\n`
-        + `Hello friends! I love to work on fun little projects to learn more about software development and improve my skills. I love learning and exercising my creativity and take a very positive approach to life. I believe everything has value! Fun fact: I *enjoy* making diagrams and writing documentation - call me crazy if you want. Oh also I love bread 🍞💖\n\n`
+        + `I like fun little projects sometimes. Some call me crazy, I call it focused chaos. Oh also I love bread 🍞💖\n\n`
         + `---\n\n`
         + `${metricsBasic} ${metricsFollowup} ${metricsLanguages}\n`
         + `</div>\n\n`
@@ -75,9 +75,8 @@ async function generateMarkdown() {
         + learningMaterialDisplay
         + `<details>\n`
         + `<summary>Extra Info</summary>\n\n`
-        + `- ⭐️ Pronouns: She/Her\n`
-        + `- 💬 DM me [@${config.discordUsername}](${config.discordURL}) on Discord if you wanna talk to me\n`
-        + `- 🌱 The first programming language I used extensively was TI-BASIC which I learned to make goofy little games and programs on my calculators. By now I've moved on to more modern languages :p\n`
+        + `- Pronouns: She/Her\n`
+        + `- The first programming language I used extensively was TI-BASIC which I learned to make goofy little games and programs on my calculators. By now I've moved on to more modern languages :p\n`
         + `</details>\n\n`
         + `---\n\n`
         + `<a href="https://github.com/${config.githubUsername}/${config.githubUsername}/actions/workflows/build.yml"><img src="https://github.com/${config.githubUsername}/${config.githubUsername}/actions/workflows/build.yml/badge.svg" align="right" alt="Rebuild README.md file"></a>\n`
